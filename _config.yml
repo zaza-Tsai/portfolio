@@ -1,6 +1,2 @@
-$ cd YOUR_GITHUB_REPO/ROOT_OF_GITHUB_PAGES/
-$ cat << _EOT_ > _config.yml
 plugins:
   - jekyll-redirect-from
-_EOT_
-$ git add . && git commit -m "Add jekyll-redirect-from" && git push
